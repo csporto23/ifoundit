@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Input, Button } from 'antd';
 const InputGroup = Input.Group;
 
-import '@App/stylesheets/ChatClient.css';
+import '@Multiplayer/stylesheets/ChatClient.css';
 
 interface ChatClientProps {
   sendMessage: (message: string) => void;

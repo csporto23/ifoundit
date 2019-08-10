@@ -1,0 +1,34 @@
+#homebody {
+    text-align: center;
+}
+
+
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 2px;
+    font-size: 26px;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
+
+  #button1{
+      margin-right: 8px;
+  }
+#button2{
+    margin-left: 8px;
+}
+
+#button1:hover {
+    background-color: rgb(13, 129, 206); 
+    color: white;
+    font-size: 30px;
+  }
+
+#button2:hover {
+    background-color: #4CAF50; 
+    color: white;
+    font-size: 30px;
+    text-decoration-line: none;
+  }

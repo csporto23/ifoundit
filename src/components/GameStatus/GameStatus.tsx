@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Alert } from 'antd';
-import '@App/stylesheets/GameStatus.css';
+import '@Multiplayer/stylesheets/GameStatus.css';
 
 const GameStatus = (props) => {
   return (

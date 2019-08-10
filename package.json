@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react-router-dom": "^4.3.4",
+    "@types/socket.io-client": "^1.4.32",
     "antd": "^3.4.1",
     "chessboardjs": "^0.0.1",
     "express": "^4.16.3",
@@ -11,11 +13,12 @@
     "normalize.css": "^8.0.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts-ts": "^2.15.1",
     "redis": "^2.8.0",
     "shortid": "^2.2.8",
-    "socket.io": "^2.1.0",
-    "socket.io-client": "^2.1.0"
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -31,7 +34,7 @@
   "jest": {
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
-      "@App/(.*)": "<rootDir>/src/$1"
+      "@Multiplayer/(.*)": "<rootDir>/src/$1"
     }
   },
   "devDependencies": {

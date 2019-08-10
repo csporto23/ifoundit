@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Input, Button } from 'antd';
-import '@App/stylesheets/Menu.css';
+import '@Multiplayer/stylesheets/Menu.css';
 
 interface MenuProps {
   roomId: string;

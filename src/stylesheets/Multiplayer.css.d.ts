@@ -1,5 +1,5 @@
-export const App: string;
-export const app: string;
+export const Multiplayer: string;
+export const multiplayer: string;
 export const appLogo: string;
 export const appLogoSpin: string;
 export const appHeader: string;

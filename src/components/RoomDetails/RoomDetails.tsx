@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Card } from 'antd';
-import ChatClient from '@App/components/ChatClient/ChatClient';
-import ChessBoard from '@App/components/Chess/Chessboard';
-import ChessFooter from '@App/components/ChessFooter/ChessFooter';
-import '@App/stylesheets/RoomDetails.css';
-import GameStatus from '@App/components/GameStatus/GameStatus';
+import ChatClient from '@Multiplayer/components/ChatClient/ChatClient';
+import ChessBoard from '@Multiplayer/components/Chess/Chessboard';
+import ChessFooter from '@Multiplayer/components/ChessFooter/ChessFooter';
+import '@Multiplayer/stylesheets/RoomDetails.css';
+import GameStatus from '@Multiplayer/components/GameStatus/GameStatus';
 
 const RoomDetails = (props) => {
   return (

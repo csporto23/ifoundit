@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ChessBoardjs from 'chessboardjs';
 import { hoverHighlights } from './chessboardHelper';
-import '@App/stylesheets/Chessboard.css';
+import '@Multiplayer/stylesheets/Chessboard.css';
 const Chess = require('../../lib/chess');
 
 interface ChessboardProps {

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Button, Radio } from 'antd';
 import { RadioChangeEvent } from 'antd/lib/radio';
-import '@App/stylesheets/ChessFooter.css';
+import '@Multiplayer/stylesheets/ChessFooter.css';
 const RadioGroup = Radio.Group;
 
 interface ChessFooterProps {

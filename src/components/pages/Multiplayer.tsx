@@ -1,11 +1,11 @@
 import * as React from 'react';
-import '../../stylesheets/App.css';
+import '../../stylesheets/Multiplayer.css';
 import 'normalize.css';
 import 'antd/dist/antd.css';
 import SocketIo from '../../socket.io.client';
-import WelcomeModal from '@App/components/WelcomeModal/WelcomeModal';
-import RoomDetails from '@App/components/RoomDetails/RoomDetails';
-import Menu from '@App/components/Menu/Menu';
+import WelcomeModal from '@Multiplayer/components/WelcomeModal/WelcomeModal';
+import RoomDetails from '@Multiplayer/components/RoomDetails/RoomDetails';
+import Menu from '@Multiplayer/components/Menu/Menu';
 
 interface AppProps {
 }
@@ -26,7 +26,7 @@ interface AppState {
   };
 }
 
-class App extends React.Component<AppProps, AppState> {
+class Multiplayer extends React.Component<AppProps, AppState> {
   public constructor(props: any, context: object) {
     super(props, context);
     this.state = {
@@ -197,4 +197,4 @@ class App extends React.Component<AppProps, AppState> {
   }
 }
 
-export default App;
+export default Multiplayer;

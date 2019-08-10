@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Modal, Input, Icon } from 'antd';
 const InputGroup = Input.Group;
-import '@App/stylesheets/welcomeModal.css';
+import '@Multiplayer/stylesheets/welcomeModal.css';
 
 interface ModalState {
   visible: boolean;
