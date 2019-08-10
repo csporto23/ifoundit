@@ -21,7 +21,7 @@
     "start": "react-scripts-ts start",
     "server": "server/index.js",
     "nodemon": "nodemon server/index.js",
-    "build": "react-scripts-ts build",
+    "build": "tsc",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "create:component": "./node_modules/hygen/lib/bin.js component create",
