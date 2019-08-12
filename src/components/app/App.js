@@ -4,6 +4,7 @@ import Multiplayer from "../pages/Multiplayer";
 import Homepage from "../pages/Homepage";
 import Wrapper from "../Wrapper/index";
 import Singleplayer from "../pages/Singleplayer"
+import Online from "../pages/Online"
 
 
 function App() {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Online from './Online'
 
 
 
@@ -9,7 +9,7 @@ class Singleplayer extends Component {
   render() {
     return (
       <div>
-    <h1>hey</h1>
+    <Online />
       </div>
     );
   }
