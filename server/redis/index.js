@@ -1,5 +1,5 @@
 const redis = require('redis');
-const redisClient = redis.createClient(process.env.REACT_APP_REDIS_URL);
+const redisClient = redis.createClient('//rediscloud:a2jAMHTJTS99VAlm1mU6UW6qxZdOBBx1@redis-19615.c99.us-east-1-4.ec2.cloud.redislabs.com:19615');
 const schedule = require('node-schedule');
 
 redisClient.on('error', function (err) {
